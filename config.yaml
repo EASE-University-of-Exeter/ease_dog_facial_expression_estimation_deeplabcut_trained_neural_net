@@ -1,0 +1,106 @@
+# Project definitions (do not edit)
+Task: ease_dog_emotions_1
+scorer: Steve North
+date: Mar13
+
+# Project path (change when moving around)
+project_path: C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+  North-2019-03-13
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 3.avi
+  : crop: 304, 712, 116, 426
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 4.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 5.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 7.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 13.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 17.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 19.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\deepcutlab_projects\ease_dog_emotions\ease_dog_emotions_1-Steve
+    North-2019-03-13\videos\Clip 20.avi
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\05-150155-adina-chris\05-150155-adina-chris_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\05-152407-adina-chris\05-152407-adina-chris_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-141156-kola-chris\08-141156-kola-chris_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-141656-kola-jess\08-141656-kola-jess_Segment_0_x264.mp4:
+    crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-142112-kola-jess\08-142112-kola-jess_Segment_0_x264.mp4:
+    crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-142828-kola-chris\08-142828-kola-chris_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-144748-kola-chris\08-144748-kola-chris_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\12-094136-services\12-094136-services_Segment_0_x264.mp4:
+    crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\12-094651-services\12-094651-services_Segment_0_x264_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\12-095213-services\12-095213-services_Segment_0_x264.mp4:
+    crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\test1 from wikimedia\test1.mp4:
+    crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\05-151545-adina-jess\05-151545-adina-jess_Segment_0_x264.mp4
+  : crop: 0, 720, 0, 480
+  ? C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\05-151902-adina-chris\05-151902-adina-chris_Segment_0_x264_x264.mp4
+  : crop: 0, 720, 0, 480
+  C:\Users\steve\Anaconda3\envs\ease_dog_emotions\dev\Tales Vids\08-152704-kola-jess4\08-152704-kola-jess.mp4:
+    crop: 0, 720, 0, 480
+
+bodyparts:
+- mouth_corner_left
+- mouth_corner_right
+- inner_brow_left
+- inner_brow_right
+- upper_lip
+- lower_lip
+- nose_corner_left
+- nose_corner_right
+- pinna_ear_left
+- pinna_ear_right
+start: 0
+stop: 1
+numframes2pick: 100
+
+# Plotting configuration
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 1
+resnet: 50
+snapshotindex: -1
+batch_size: 4
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
